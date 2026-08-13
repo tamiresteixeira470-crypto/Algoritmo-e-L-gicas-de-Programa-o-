@@ -1,0 +1,51 @@
+programa {
+  funcao inicio() {
+    escreva("Boletim de Notas")
+ 
+ cadeia nome
+ cadeia curso
+ cadeia semestre
+ cadeia disciplina
+ inteiro nota
+
+escreva("\n Nome do(a) Aluno(a):")
+
+ leia(nome)
+
+escreva("\n Curso:")
+ 
+ leia(curso)
+
+escreva("\n Semestre:")
+
+ leia (semestre)
+
+escreva("\n Disciplina:")
+
+  leia(disciplina)
+
+escreva ("\n Nota:")
+
+  leia(nota)
+
+ se (nota >=60){
+escreva ("Aprovado") 
+ }
+ 
+  
+  senao se (nota <20){
+    escreva("REPROVADO")
+  }
+  
+  
+senao {
+  escreva("RECUPERAÇÃO")
+}
+
+
+
+  }
+  
+  
+  
+}
